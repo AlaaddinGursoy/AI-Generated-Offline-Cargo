@@ -1,0 +1,405 @@
+0 verbose cli /opt/homebrew/Cellar/node/25.2.0/bin/node /opt/homebrew/bin/npm
+1 info using npm@11.6.2
+2 info using node@v25.2.0
+3 silly config load:file:/opt/homebrew/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/alaaddin/Documents/rust_project/hello/.npmrc
+5 silly config load:file:/Users/alaaddin/.npmrc
+6 silly config load:file:/opt/homebrew/etc/npmrc
+7 verbose title npm ci
+8 verbose argv "ci" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/alaaddin/Documents/rust_project/hello/.npm-cache/_logs/2025-12-14T14_24_11_302Z-
+10 verbose logfile /Users/alaaddin/Documents/rust_project/hello/.npm-cache/_logs/2025-12-14T14_24_11_302Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly reify moves {}
+15 silly audit bulk request {
+15 silly audit   '@esbuild/aix-ppc64': [ '0.25.12' ],
+15 silly audit   '@esbuild/android-arm': [ '0.25.12' ],
+15 silly audit   '@esbuild/android-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/android-x64': [ '0.25.12' ],
+15 silly audit   '@esbuild/darwin-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/darwin-x64': [ '0.25.12' ],
+15 silly audit   '@esbuild/freebsd-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/freebsd-x64': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-arm': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-ia32': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-loong64': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-mips64el': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-ppc64': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-riscv64': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-s390x': [ '0.25.12' ],
+15 silly audit   '@esbuild/linux-x64': [ '0.25.12' ],
+15 silly audit   '@esbuild/netbsd-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/netbsd-x64': [ '0.25.12' ],
+15 silly audit   '@esbuild/openbsd-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/openbsd-x64': [ '0.25.12' ],
+15 silly audit   '@esbuild/openharmony-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/sunos-x64': [ '0.25.12' ],
+15 silly audit   '@esbuild/win32-arm64': [ '0.25.12' ],
+15 silly audit   '@esbuild/win32-ia32': [ '0.25.12' ],
+15 silly audit   '@esbuild/win32-x64': [ '0.25.12' ],
+15 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+15 silly audit   '@jridgewell/remapping': [ '2.3.5' ],
+15 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+15 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+15 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+15 silly audit   '@polka/url': [ '1.0.0-next.29' ],
+15 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-android-arm64': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-darwin-arm64': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-darwin-x64': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-freebsd-x64': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-linux-loong64-gnu': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-linux-ppc64-gnu': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-openharmony-arm64': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-win32-x64-gnu': [ '4.53.3' ],
+15 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.53.3' ],
+15 silly audit   '@standard-schema/spec': [ '1.0.0' ],
+15 silly audit   '@sveltejs/acorn-typescript': [ '1.0.8' ],
+15 silly audit   '@sveltejs/adapter-static': [ '3.0.10' ],
+15 silly audit   '@sveltejs/kit': [ '2.49.2' ],
+15 silly audit   '@sveltejs/vite-plugin-svelte': [ '5.1.1' ],
+15 silly audit   '@sveltejs/vite-plugin-svelte-inspector': [ '4.0.1' ],
+15 silly audit   '@tauri-apps/api': [ '2.9.1' ],
+15 silly audit   '@tauri-apps/cli': [ '2.9.6' ],
+15 silly audit   '@tauri-apps/cli-darwin-arm64': [ '2.9.6' ],
+15 silly audit   '@tauri-apps/cli-darwin-x64': [ '2.9.6' ],
+15 silly audit   '@tauri-apps/cli-linux-arm-gnueabihf': [ '2.9.6' ],
+15 silly audit   '@tauri-apps/cli-linux-arm64-gnu': [ '2.9.6' ],
+15 silly audit   '@tauri-apps/cli-linux-arm64-musl': [ '2.9.6' ],
+15 silly audit   '@tauri-apps/cli-linux-riscv64-gnu': [ '2.9.6' ],
+15 silly audit   '@tauri-apps/cli-linux-x64-gnu': [ '2.9.6' ],
+15 silly audit   '@tauri-apps/cli-linux-x64-musl': [ '2.9.6' ],
+15 silly audit   '@tauri-apps/cli-win32-arm64-msvc': [ '2.9.6' ],
+15 silly audit   '@tauri-apps/cli-win32-ia32-msvc': [ '2.9.6' ],
+15 silly audit   '@tauri-apps/cli-win32-x64-msvc': [ '2.9.6' ],
+15 silly audit   '@tauri-apps/plugin-opener': [ '2.5.2' ],
+15 silly audit   '@types/cookie': [ '0.6.0' ],
+15 silly audit   '@types/estree': [ '1.0.8' ],
+15 silly audit   acorn: [ '8.15.0' ],
+15 silly audit   'aria-query': [ '5.3.2' ],
+15 silly audit   'axobject-query': [ '4.1.0' ],
+15 silly audit   chokidar: [ '4.0.3' ],
+15 silly audit   clsx: [ '2.1.1' ],
+15 silly audit   cookie: [ '0.6.0' ],
+15 silly audit   debug: [ '4.4.3' ],
+15 silly audit   deepmerge: [ '4.3.1' ],
+15 silly audit   devalue: [ '5.6.1' ],
+15 silly audit   esbuild: [ '0.25.12' ],
+15 silly audit   'esm-env': [ '1.2.2' ],
+15 silly audit   esrap: [ '2.2.1' ],
+15 silly audit   fdir: [ '6.5.0' ],
+15 silly audit   fsevents: [ '2.3.3' ],
+15 silly audit   'is-reference': [ '3.0.3' ],
+15 silly audit   kleur: [ '4.1.5' ],
+15 silly audit   'locate-character': [ '3.0.0' ],
+15 silly audit   'magic-string': [ '0.30.21' ],
+15 silly audit   mri: [ '1.2.0' ],
+15 silly audit   mrmime: [ '2.0.1' ],
+15 silly audit   ms: [ '2.1.3' ],
+15 silly audit   nanoid: [ '3.3.11' ],
+15 silly audit   picocolors: [ '1.1.1' ],
+15 silly audit   picomatch: [ '4.0.3' ],
+15 silly audit   postcss: [ '8.5.6' ],
+15 silly audit   readdirp: [ '4.1.2' ],
+15 silly audit   rollup: [ '4.53.3' ],
+15 silly audit   sade: [ '1.8.1' ],
+15 silly audit   'set-cookie-parser': [ '2.7.2' ],
+15 silly audit   sirv: [ '3.0.2' ],
+15 silly audit   'source-map-js': [ '1.2.1' ],
+15 silly audit   svelte: [ '5.46.0' ],
+15 silly audit   'svelte-check': [ '4.3.4' ],
+15 silly audit   tinyglobby: [ '0.2.15' ],
+15 silly audit   totalist: [ '3.0.1' ],
+15 silly audit   typescript: [ '5.6.3' ],
+15 silly audit   vite: [ '6.4.1' ],
+15 silly audit   vitefu: [ '1.1.1' ],
+15 silly audit   zimmerframe: [ '1.1.4' ]
+15 silly audit }
+16 http cache zimmerframe@https://registry.npmjs.org/zimmerframe/-/zimmerframe-1.1.4.tgz 0ms (cache hit)
+17 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.6.3.tgz 0ms (cache hit)
+18 http cache vite@https://registry.npmjs.org/vite/-/vite-6.4.1.tgz 0ms (cache hit)
+19 http cache vitefu@https://registry.npmjs.org/vitefu/-/vitefu-1.1.1.tgz 0ms (cache hit)
+20 http cache totalist@https://registry.npmjs.org/totalist/-/totalist-3.0.1.tgz 0ms (cache hit)
+21 http cache svelte-check@https://registry.npmjs.org/svelte-check/-/svelte-check-4.3.4.tgz 0ms (cache hit)
+22 http cache svelte@https://registry.npmjs.org/svelte/-/svelte-5.46.0.tgz 0ms (cache hit)
+23 http cache source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 0ms (cache hit)
+24 http cache tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz 0ms (cache hit)
+25 http cache set-cookie-parser@https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz 0ms (cache hit)
+26 http cache sade@https://registry.npmjs.org/sade/-/sade-1.8.1.tgz 0ms (cache hit)
+27 http cache rollup@https://registry.npmjs.org/rollup/-/rollup-4.53.3.tgz 0ms (cache hit)
+28 http cache readdirp@https://registry.npmjs.org/readdirp/-/readdirp-4.1.2.tgz 0ms (cache hit)
+29 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz 0ms (cache hit)
+30 http cache sirv@https://registry.npmjs.org/sirv/-/sirv-3.0.2.tgz 0ms (cache hit)
+31 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz 0ms (cache hit)
+32 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 0ms (cache hit)
+33 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+34 http cache magic-string@https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz 0ms (cache hit)
+35 http cache picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 0ms (cache hit)
+36 http cache mri@https://registry.npmjs.org/mri/-/mri-1.2.0.tgz 0ms (cache hit)
+37 http cache mrmime@https://registry.npmjs.org/mrmime/-/mrmime-2.0.1.tgz 0ms (cache hit)
+38 http cache locate-character@https://registry.npmjs.org/locate-character/-/locate-character-3.0.0.tgz 0ms (cache hit)
+39 http cache kleur@https://registry.npmjs.org/kleur/-/kleur-4.1.5.tgz 0ms (cache hit)
+40 http cache is-reference@https://registry.npmjs.org/is-reference/-/is-reference-3.0.3.tgz 0ms (cache hit)
+41 http cache fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 0ms (cache hit)
+42 http cache esrap@https://registry.npmjs.org/esrap/-/esrap-2.2.1.tgz 0ms (cache hit)
+43 http cache esm-env@https://registry.npmjs.org/esm-env/-/esm-env-1.2.2.tgz 0ms (cache hit)
+44 http cache fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 0ms (cache hit)
+45 http cache devalue@https://registry.npmjs.org/devalue/-/devalue-5.6.1.tgz 0ms (cache hit)
+46 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz 0ms (cache hit)
+47 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+48 http cache clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 0ms (cache hit)
+49 http cache cookie@https://registry.npmjs.org/cookie/-/cookie-0.6.0.tgz 0ms (cache hit)
+50 http cache chokidar@https://registry.npmjs.org/chokidar/-/chokidar-4.0.3.tgz 0ms (cache hit)
+51 http cache deepmerge@https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz 0ms (cache hit)
+52 http cache aria-query@https://registry.npmjs.org/aria-query/-/aria-query-5.3.2.tgz 0ms (cache hit)
+53 http cache axobject-query@https://registry.npmjs.org/axobject-query/-/axobject-query-4.1.0.tgz 0ms (cache hit)
+54 http cache acorn@https://registry.npmjs.org/acorn/-/acorn-8.15.0.tgz 0ms (cache hit)
+55 http cache @types/estree@https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz 0ms (cache hit)
+56 http cache @types/cookie@https://registry.npmjs.org/@types/cookie/-/cookie-0.6.0.tgz 0ms (cache hit)
+57 http cache @tauri-apps/plugin-opener@https://registry.npmjs.org/@tauri-apps/plugin-opener/-/plugin-opener-2.5.2.tgz 0ms (cache hit)
+58 http cache @tauri-apps/cli@https://registry.npmjs.org/@tauri-apps/cli/-/cli-2.9.6.tgz 0ms (cache hit)
+59 http cache @tauri-apps/api@https://registry.npmjs.org/@tauri-apps/api/-/api-2.9.1.tgz 0ms (cache hit)
+60 http cache @sveltejs/vite-plugin-svelte-inspector@https://registry.npmjs.org/@sveltejs/vite-plugin-svelte-inspector/-/vite-plugin-svelte-inspector-4.0.1.tgz 0ms (cache hit)
+61 http cache @sveltejs/vite-plugin-svelte@https://registry.npmjs.org/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-5.1.1.tgz 0ms (cache hit)
+62 http cache @sveltejs/adapter-static@https://registry.npmjs.org/@sveltejs/adapter-static/-/adapter-static-3.0.10.tgz 0ms (cache hit)
+63 http cache @tauri-apps/cli-darwin-arm64@https://registry.npmjs.org/@tauri-apps/cli-darwin-arm64/-/cli-darwin-arm64-2.9.6.tgz 0ms (cache hit)
+64 http cache @sveltejs/kit@https://registry.npmjs.org/@sveltejs/kit/-/kit-2.49.2.tgz 0ms (cache hit)
+65 http cache @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.0.0.tgz 0ms (cache hit)
+66 http cache @polka/url@https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.29.tgz 0ms (cache hit)
+67 http cache @rollup/rollup-darwin-arm64@https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.53.3.tgz 0ms (cache hit)
+68 http cache @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz 0ms (cache hit)
+69 http cache @jridgewell/resolve-uri@https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 0ms (cache hit)
+70 http cache @jridgewell/remapping@https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz 0ms (cache hit)
+71 http cache @jridgewell/gen-mapping@https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz 0ms (cache hit)
+72 http cache @esbuild/darwin-arm64@https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.25.12.tgz 0ms (cache hit)
+73 http cache @sveltejs/acorn-typescript@https://registry.npmjs.org/@sveltejs/acorn-typescript/-/acorn-typescript-1.0.8.tgz 0ms (cache hit)
+74 http cache @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz 0ms (cache hit)
+75 silly tarball no local data for zimmerframe@https://registry.npmjs.org/zimmerframe/-/zimmerframe-1.1.4.tgz. Extracting by manifest.
+76 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.6.3.tgz. Extracting by manifest.
+77 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-6.4.1.tgz. Extracting by manifest.
+78 silly tarball no local data for vitefu@https://registry.npmjs.org/vitefu/-/vitefu-1.1.1.tgz. Extracting by manifest.
+79 silly tarball no local data for totalist@https://registry.npmjs.org/totalist/-/totalist-3.0.1.tgz. Extracting by manifest.
+80 silly tarball no local data for svelte-check@https://registry.npmjs.org/svelte-check/-/svelte-check-4.3.4.tgz. Extracting by manifest.
+81 silly tarball no local data for svelte@https://registry.npmjs.org/svelte/-/svelte-5.46.0.tgz. Extracting by manifest.
+82 silly tarball no local data for source-map-js@https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz. Extracting by manifest.
+83 silly tarball no local data for tinyglobby@https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz. Extracting by manifest.
+84 silly tarball no local data for set-cookie-parser@https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz. Extracting by manifest.
+85 silly tarball no local data for sade@https://registry.npmjs.org/sade/-/sade-1.8.1.tgz. Extracting by manifest.
+86 silly tarball no local data for rollup@https://registry.npmjs.org/rollup/-/rollup-4.53.3.tgz. Extracting by manifest.
+87 silly tarball no local data for readdirp@https://registry.npmjs.org/readdirp/-/readdirp-4.1.2.tgz. Extracting by manifest.
+88 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz. Extracting by manifest.
+89 silly tarball no local data for sirv@https://registry.npmjs.org/sirv/-/sirv-3.0.2.tgz. Extracting by manifest.
+90 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz. Extracting by manifest.
+91 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz. Extracting by manifest.
+92 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz. Extracting by manifest.
+93 silly tarball no local data for magic-string@https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz. Extracting by manifest.
+94 silly tarball no local data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz. Extracting by manifest.
+95 silly tarball no local data for mri@https://registry.npmjs.org/mri/-/mri-1.2.0.tgz. Extracting by manifest.
+96 silly tarball no local data for mrmime@https://registry.npmjs.org/mrmime/-/mrmime-2.0.1.tgz. Extracting by manifest.
+97 silly tarball no local data for locate-character@https://registry.npmjs.org/locate-character/-/locate-character-3.0.0.tgz. Extracting by manifest.
+98 silly tarball no local data for kleur@https://registry.npmjs.org/kleur/-/kleur-4.1.5.tgz. Extracting by manifest.
+99 silly tarball no local data for is-reference@https://registry.npmjs.org/is-reference/-/is-reference-3.0.3.tgz. Extracting by manifest.
+100 silly tarball no local data for fdir@https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz. Extracting by manifest.
+101 silly tarball no local data for esrap@https://registry.npmjs.org/esrap/-/esrap-2.2.1.tgz. Extracting by manifest.
+102 silly tarball no local data for esm-env@https://registry.npmjs.org/esm-env/-/esm-env-1.2.2.tgz. Extracting by manifest.
+103 silly tarball no local data for fsevents@https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz. Extracting by manifest.
+104 silly tarball no local data for devalue@https://registry.npmjs.org/devalue/-/devalue-5.6.1.tgz. Extracting by manifest.
+105 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz. Extracting by manifest.
+106 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz. Extracting by manifest.
+107 silly tarball no local data for clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz. Extracting by manifest.
+108 silly tarball no local data for cookie@https://registry.npmjs.org/cookie/-/cookie-0.6.0.tgz. Extracting by manifest.
+109 silly tarball no local data for chokidar@https://registry.npmjs.org/chokidar/-/chokidar-4.0.3.tgz. Extracting by manifest.
+110 silly tarball no local data for deepmerge@https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz. Extracting by manifest.
+111 silly tarball no local data for aria-query@https://registry.npmjs.org/aria-query/-/aria-query-5.3.2.tgz. Extracting by manifest.
+112 silly tarball no local data for axobject-query@https://registry.npmjs.org/axobject-query/-/axobject-query-4.1.0.tgz. Extracting by manifest.
+113 silly tarball no local data for acorn@https://registry.npmjs.org/acorn/-/acorn-8.15.0.tgz. Extracting by manifest.
+114 silly tarball no local data for @types/estree@https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz. Extracting by manifest.
+115 silly tarball no local data for @types/cookie@https://registry.npmjs.org/@types/cookie/-/cookie-0.6.0.tgz. Extracting by manifest.
+116 silly tarball no local data for @tauri-apps/plugin-opener@https://registry.npmjs.org/@tauri-apps/plugin-opener/-/plugin-opener-2.5.2.tgz. Extracting by manifest.
+117 silly tarball no local data for @tauri-apps/cli@https://registry.npmjs.org/@tauri-apps/cli/-/cli-2.9.6.tgz. Extracting by manifest.
+118 silly tarball no local data for @tauri-apps/api@https://registry.npmjs.org/@tauri-apps/api/-/api-2.9.1.tgz. Extracting by manifest.
+119 silly tarball no local data for @sveltejs/vite-plugin-svelte-inspector@https://registry.npmjs.org/@sveltejs/vite-plugin-svelte-inspector/-/vite-plugin-svelte-inspector-4.0.1.tgz. Extracting by manifest.
+120 silly tarball no local data for @sveltejs/vite-plugin-svelte@https://registry.npmjs.org/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-5.1.1.tgz. Extracting by manifest.
+121 silly tarball no local data for @sveltejs/adapter-static@https://registry.npmjs.org/@sveltejs/adapter-static/-/adapter-static-3.0.10.tgz. Extracting by manifest.
+122 silly tarball no local data for @tauri-apps/cli-darwin-arm64@https://registry.npmjs.org/@tauri-apps/cli-darwin-arm64/-/cli-darwin-arm64-2.9.6.tgz. Extracting by manifest.
+123 silly tarball no local data for @sveltejs/kit@https://registry.npmjs.org/@sveltejs/kit/-/kit-2.49.2.tgz. Extracting by manifest.
+124 silly tarball no local data for @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.0.0.tgz. Extracting by manifest.
+125 silly tarball no local data for @polka/url@https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.29.tgz. Extracting by manifest.
+126 silly tarball no local data for @rollup/rollup-darwin-arm64@https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.53.3.tgz. Extracting by manifest.
+127 silly tarball no local data for @jridgewell/sourcemap-codec@https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz. Extracting by manifest.
+128 silly tarball no local data for @jridgewell/resolve-uri@https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz. Extracting by manifest.
+129 silly tarball no local data for @jridgewell/remapping@https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz. Extracting by manifest.
+130 silly tarball no local data for @jridgewell/gen-mapping@https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz. Extracting by manifest.
+131 silly tarball no local data for @esbuild/darwin-arm64@https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.25.12.tgz. Extracting by manifest.
+132 silly tarball no local data for @sveltejs/acorn-typescript@https://registry.npmjs.org/@sveltejs/acorn-typescript/-/acorn-typescript-1.0.8.tgz. Extracting by manifest.
+133 silly tarball no local data for @jridgewell/trace-mapping@https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz. Extracting by manifest.
+134 http fetch GET 200 https://registry.npmjs.org/totalist/-/totalist-3.0.1.tgz 274ms (cache miss)
+135 http fetch GET 200 https://registry.npmjs.org/sade/-/sade-1.8.1.tgz 276ms (cache miss)
+136 http fetch GET 200 https://registry.npmjs.org/vitefu/-/vitefu-1.1.1.tgz 277ms (cache miss)
+137 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.6.tgz 331ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/sirv/-/sirv-3.0.2.tgz 336ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/npm 488ms
+140 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-4.0.3.tgz 363ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/set-cookie-parser/-/set-cookie-parser-2.7.2.tgz 370ms (cache miss)
+142 http fetch GET 200 https://registry.npmjs.org/source-map-js/-/source-map-js-1.2.1.tgz 404ms (cache miss)
+143 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 424ms (cache miss)
+144 http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.1.1.tgz 449ms (cache miss)
+145 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 468ms
+146 silly audit report {
+146 silly audit report   cookie: [
+146 silly audit report     {
+146 silly audit report       id: 1103907,
+146 silly audit report       url: 'https://github.com/advisories/GHSA-pxg6-pf52-xh8x',
+146 silly audit report       title: 'cookie accepts cookie name, path, and domain with out of bounds characters',
+146 silly audit report       severity: 'low',
+146 silly audit report       vulnerable_versions: '<0.7.0',
+146 silly audit report       cwe: [Array],
+146 silly audit report       cvss: [Object]
+146 silly audit report     }
+146 silly audit report   ]
+146 silly audit report }
+147 silly packumentCache corgi:https://registry.npmjs.org/cookie cache-miss
+148 http fetch GET 200 https://registry.npmjs.org/tinyglobby/-/tinyglobby-0.2.15.tgz 478ms (cache miss)
+149 http fetch GET 200 https://registry.npmjs.org/mrmime/-/mrmime-2.0.1.tgz 487ms (cache miss)
+150 http fetch GET 200 https://registry.npmjs.org/locate-character/-/locate-character-3.0.0.tgz 538ms (cache miss)
+151 http fetch GET 200 https://registry.npmjs.org/is-reference/-/is-reference-3.0.3.tgz 552ms (cache miss)
+152 http fetch GET 200 https://registry.npmjs.org/kleur/-/kleur-4.1.5.tgz 557ms (cache miss)
+153 http fetch GET 200 https://registry.npmjs.org/readdirp/-/readdirp-4.1.2.tgz 599ms (cache miss)
+154 http fetch GET 200 https://registry.npmjs.org/esm-env/-/esm-env-1.2.2.tgz 623ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/zimmerframe/-/zimmerframe-1.1.4.tgz 638ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/magic-string/-/magic-string-0.30.21.tgz 634ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/svelte/-/svelte-5.46.0.tgz 679ms (cache miss)
+158 http fetch GET 200 https://registry.npmjs.org/devalue/-/devalue-5.6.1.tgz 678ms (cache miss)
+159 http fetch GET 200 https://registry.npmjs.org/rollup/-/rollup-4.53.3.tgz 680ms (cache miss)
+160 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.25.12.tgz 680ms (cache miss)
+161 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-6.4.1.tgz 683ms (cache miss)
+162 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 708ms (cache miss)
+163 http fetch GET 200 https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 709ms (cache miss)
+164 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 724ms (cache miss)
+165 http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-0.6.0.tgz 723ms (cache miss)
+166 http fetch GET 200 https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz 761ms (cache miss)
+167 http fetch GET 200 https://registry.npmjs.org/chokidar/-/chokidar-4.0.3.tgz 772ms (cache miss)
+168 http fetch GET 200 https://registry.npmjs.org/axobject-query/-/axobject-query-4.1.0.tgz 799ms (cache miss)
+169 http fetch GET 200 https://registry.npmjs.org/@tauri-apps/cli/-/cli-2.9.6.tgz 879ms (cache miss)
+170 http fetch GET 200 https://registry.npmjs.org/@tauri-apps/plugin-opener/-/plugin-opener-2.5.2.tgz 915ms (cache miss)
+171 http fetch GET 200 https://registry.npmjs.org/fdir/-/fdir-6.5.0.tgz 918ms (cache miss)
+172 http fetch GET 200 https://registry.npmjs.org/@types/cookie/-/cookie-0.6.0.tgz 954ms (cache miss)
+173 http fetch GET 200 https://registry.npmjs.org/@tauri-apps/api/-/api-2.9.1.tgz 981ms (cache miss)
+174 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-8.15.0.tgz 1005ms (cache miss)
+175 http fetch GET 200 https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz 1013ms (cache miss)
+176 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.6.3.tgz 1022ms (cache miss)
+177 http fetch GET 200 https://registry.npmjs.org/@sveltejs/adapter-static/-/adapter-static-3.0.10.tgz 1027ms (cache miss)
+178 http fetch GET 200 https://registry.npmjs.org/@types/estree/-/estree-1.0.8.tgz 1052ms (cache miss)
+179 http fetch GET 200 https://registry.npmjs.org/@standard-schema/spec/-/spec-1.0.0.tgz 1057ms (cache miss)
+180 http fetch GET 200 https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.29.tgz 1079ms (cache miss)
+181 http fetch GET 200 https://registry.npmjs.org/svelte-check/-/svelte-check-4.3.4.tgz 1113ms (cache miss)
+182 http fetch GET 200 https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.5.5.tgz 1110ms (cache miss)
+183 http fetch GET 200 https://registry.npmjs.org/aria-query/-/aria-query-5.3.2.tgz 1139ms (cache miss)
+184 http fetch GET 200 https://registry.npmjs.org/esrap/-/esrap-2.2.1.tgz 1145ms (cache miss)
+185 http fetch GET 200 https://registry.npmjs.org/@sveltejs/kit/-/kit-2.49.2.tgz 1153ms (cache miss)
+186 http fetch GET 200 https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.3.13.tgz 1152ms (cache miss)
+187 http fetch GET 200 https://registry.npmjs.org/cookie 748ms (cache miss)
+188 silly packumentCache corgi:https://registry.npmjs.org/cookie set size:undefined disposed:false
+189 silly packumentCache corgi:https://registry.npmjs.org/@sveltejs%2fkit cache-miss
+190 http fetch GET 200 https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz 1205ms (cache miss)
+191 http fetch GET 200 https://registry.npmjs.org/@jridgewell/remapping/-/remapping-2.3.5.tgz 1210ms (cache miss)
+192 http fetch GET 200 https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.31.tgz 1300ms (cache miss)
+193 http fetch GET 200 https://registry.npmjs.org/@rollup/rollup-darwin-arm64/-/rollup-darwin-arm64-4.53.3.tgz 1343ms (cache miss)
+194 http fetch GET 200 https://registry.npmjs.org/@sveltejs/acorn-typescript/-/acorn-typescript-1.0.8.tgz 1417ms (cache miss)
+195 http fetch GET 200 https://registry.npmjs.org/mri/-/mri-1.2.0.tgz 1471ms (cache miss)
+196 http fetch GET 200 https://registry.npmjs.org/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-5.1.1.tgz 1543ms (cache miss)
+197 http fetch GET 200 https://registry.npmjs.org/@sveltejs/vite-plugin-svelte-inspector/-/vite-plugin-svelte-inspector-4.0.1.tgz 1923ms (cache miss)
+198 http fetch GET 200 https://registry.npmjs.org/@tauri-apps/cli-darwin-arm64/-/cli-darwin-arm64-2.9.6.tgz 2049ms (cache miss)
+199 http fetch GET 200 https://registry.npmjs.org/@sveltejs%2fkit 1854ms (cache miss)
+200 silly packumentCache corgi:https://registry.npmjs.org/@sveltejs%2fkit set size:undefined disposed:false
+201 silly packumentCache corgi:https://registry.npmjs.org/@sveltejs%2fadapter-static cache-miss
+202 http fetch GET 200 https://registry.npmjs.org/@sveltejs%2fadapter-static 454ms (cache miss)
+203 silly packumentCache corgi:https://registry.npmjs.org/@sveltejs%2fadapter-static set size:undefined disposed:false
+204 http fetch GET 200 https://registry.npmjs.org/@esbuild/darwin-arm64/-/darwin-arm64-0.25.12.tgz 4186ms (cache miss)
+205 info run esbuild@0.25.12 postinstall node_modules/esbuild node install.js
+206 info run esbuild@0.25.12 postinstall { code: 0, signal: null }
+207 silly ADD node_modules/zimmerframe
+208 silly ADD node_modules/vitefu
+209 silly ADD node_modules/vite
+210 silly ADD node_modules/typescript
+211 silly ADD node_modules/totalist
+212 silly ADD node_modules/tinyglobby
+213 silly ADD node_modules/svelte-check
+214 silly ADD node_modules/svelte
+215 silly ADD node_modules/source-map-js
+216 silly ADD node_modules/sirv
+217 silly ADD node_modules/set-cookie-parser
+218 silly ADD node_modules/sade
+219 silly ADD node_modules/rollup
+220 silly ADD node_modules/readdirp
+221 silly ADD node_modules/postcss
+222 silly ADD node_modules/picomatch
+223 silly ADD node_modules/picocolors
+224 silly ADD node_modules/nanoid
+225 silly ADD node_modules/ms
+226 silly ADD node_modules/mrmime
+227 silly ADD node_modules/mri
+228 silly ADD node_modules/magic-string
+229 silly ADD node_modules/locate-character
+230 silly ADD node_modules/kleur
+231 silly ADD node_modules/is-reference
+232 silly ADD node_modules/fsevents
+233 silly ADD node_modules/fdir
+234 silly ADD node_modules/esrap
+235 silly ADD node_modules/esm-env
+236 silly ADD node_modules/esbuild
+237 silly ADD node_modules/devalue
+238 silly ADD node_modules/deepmerge
+239 silly ADD node_modules/debug
+240 silly ADD node_modules/cookie
+241 silly ADD node_modules/clsx
+242 silly ADD node_modules/chokidar
+243 silly ADD node_modules/axobject-query
+244 silly ADD node_modules/aria-query
+245 silly ADD node_modules/acorn
+246 silly ADD node_modules/@types/estree
+247 silly ADD node_modules/@types/cookie
+248 silly ADD node_modules/@tauri-apps/plugin-opener
+249 silly ADD node_modules/@tauri-apps/cli-darwin-arm64
+250 silly ADD node_modules/@tauri-apps/cli
+251 silly ADD node_modules/@tauri-apps/api
+252 silly ADD node_modules/@sveltejs/vite-plugin-svelte-inspector
+253 silly ADD node_modules/@sveltejs/vite-plugin-svelte
+254 silly ADD node_modules/@sveltejs/kit
+255 silly ADD node_modules/@sveltejs/adapter-static
+256 silly ADD node_modules/@sveltejs/acorn-typescript
+257 silly ADD node_modules/@standard-schema/spec
+258 silly ADD node_modules/@rollup/rollup-darwin-arm64
+259 silly ADD node_modules/@polka/url
+260 silly ADD node_modules/@jridgewell/trace-mapping
+261 silly ADD node_modules/@jridgewell/sourcemap-codec
+262 silly ADD node_modules/@jridgewell/resolve-uri
+263 silly ADD node_modules/@jridgewell/remapping
+264 silly ADD node_modules/@jridgewell/gen-mapping
+265 silly ADD node_modules/@esbuild/darwin-arm64
+266 verbose cwd /Users/alaaddin/Documents/rust_project/hello
+267 verbose os Darwin 25.1.0
+268 verbose node v25.2.0
+269 verbose npm  v11.6.2
+270 notice
+270 notice New [33mminor[39m version of npm available! [33m11.6.2[39m -> [34m11.7.0[39m
+270 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.7.0[39m
+270 notice To update run: [4mnpm install -g npm@11.7.0[24m
+270 notice  { force: true, Symbol(proc-log.meta): true }
+271 verbose exit 0
+272 info ok
